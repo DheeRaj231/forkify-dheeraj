@@ -3,7 +3,7 @@ import { numberToFraction } from '../helpers.js';
 // ele.quantity ? numberToFraction(ele.quantity).toString() : '';
 // import icons from '../img/icons.svg'; // Parcel 1
 import icons from 'url:../../img/icons.svg'; // Parcel 2
-import { Fraction } from 'fractional';
+const { Fraction } = require('fractional');
 
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
